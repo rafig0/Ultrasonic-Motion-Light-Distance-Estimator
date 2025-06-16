@@ -38,7 +38,8 @@ A compact, smart system that turns on a light based on detected motion while est
 ## 📹 Demo
 
 ▶️ Watch the working demo:  
-https://github.com/user-attachments/assets/6486f5c8-5c2f-4289-a637-ef60cd085a12
+
+https://github.com/user-attachments/assets/f65c662f-15d9-48c5-86e4-a5c3ca3569b0
 
 
 ## 💬 Why I Built This
