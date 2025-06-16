@@ -1,27 +1,31 @@
 # 💡 Ultrasonic Motion Activated Light & Distance Estimator 
-Relay-free ultrasonic motion-activated light & distance estimator built with Arduino
-A compact, smart system that turns on a light based on detected motion while estimating the distance of the approaching object using an HC-SR04 ultrasonic sensor — no relay modules involved.
+Relay-free ultrasonic motion-activated light & distance estimator built with Arduino Nano
+A compact, smart system that turns on a light based on detected motion while estimating the distance of the approaching object using an HC-SR04 ultrasonic sensor.
 
 ## ⚙️ What It Does
 
 - Detects motion using an ultrasonic sensor (HC-SR04)
 - Activates an LED or light when someone approaches
-- Calculates real-time distance to the object
-- Entirely relay-free — simple and efficient
+- Calculates real-time distance to the object in centimetres.
 
 ## 🎯 Features
 
 - Motion-triggered lighting
-- Real-time distance display (optional via serial monitor or LEDs)
+- Real-time distance display (can be seen on the Arduino serial monitor)
 - Portable and beginner-friendly
 - Great for smart desks, stairways, closets, or hallway automation
 
-## 🛠 Tech Stack
+## 🔩 Components
 
-- Arduino Nano / Uno  
-- HC-SR04 Ultrasonic Sensor  
-- LED or external light  
-- Jumper wires, breadboard (or PCB)
+| Component            | Quantity | Description                                      |
+|----------------------|----------|--------------------------------------------------|
+| Arduino Nano        | 1        | Microcontroller board for controlling the system |
+| HC-SR04              | 1        | Ultrasonic sensor for motion and distance sensing |
+| LED                 | 1        | Light that activates when motion is detected     |
+| Jumper Wires         | -        | For connecting components                        |
+| Breadboard           | 1        | Base for building and wiring the circuit         |
+| Resistor (220Ω)      | 1        | For limiting current to the LED       |
+
 
 ## 📸 Project Setup
 ### Top View
@@ -45,8 +49,4 @@ https://github.com/user-attachments/assets/f65c662f-15d9-48c5-86e4-a5c3ca3569b0
 ## 💬 Why I Built This
 
 I love automating the tiny things that make life smoother.  
-This system is my take on motion-sensing lighting without relays — just precise ultrasonic sensing and a simple Arduino setup.
-
----
-
-Want help writing a short About section or pinning this project to your GitHub profile? Just say the word!
+This system is my take on motion-sensing activated light, and not only that— it also tells you how far the object detected is.
