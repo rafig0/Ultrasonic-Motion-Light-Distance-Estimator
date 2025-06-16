@@ -1,6 +1,6 @@
 # 💡 Ultrasonic Motion Activated Light & Distance Estimator 
 Ultrasonic motion-activated light & distance estimator built with Arduino Nano — a compact, smart system that automatically turns on a light when motion is detected, 
-while simultaneously estimating the distance of the approaching object using an HC-SR04 ultrasonic sensor.
+while simultaneously estimating the distance of the object on the serial monitor using an HC-SR04 ultrasonic sensor.
 
 ## ⚙️ What It Does
 
