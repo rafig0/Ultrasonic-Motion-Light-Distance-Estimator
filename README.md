@@ -1,4 +1,4 @@
-#💡 Ultrasonic Motion Activated Light & Distance Estimator 
+# 💡 Ultrasonic Motion Activated Light & Distance Estimator 
 Relay-free ultrasonic motion-activated light & distance estimator built with Arduino
 
 A compact, smart system that turns on a light based on detected motion while estimating the distance of the approaching object using an HC-SR04 ultrasonic sensor — no relay modules involved.
